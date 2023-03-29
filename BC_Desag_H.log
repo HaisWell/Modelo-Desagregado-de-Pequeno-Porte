@@ -1,0 +1,172 @@
+Starting Dynare (version 5.2).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+Substitution of endo leads >= 2: added 9 auxiliary variables and equations.
+Substitution of endo lags >= 2: added 34 auxiliary variables and equations.
+Found 111 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+STEADY-STATE RESULTS:
+
+DLA_CPI              		 3
+DLA_CPI_LIVRES       		 3
+DLA_CPI_CORE         		 3
+DLA_CPI_A            		 3
+DLA_CPI_S            		 3
+DLA_CPI_I            		 3
+DLA_CPI_C            		 3
+W_CPI_A              		 0.25
+W_CPI_S              		 0.25
+W_CPI_I              		 0.25
+W_CPI_C              		 0.25
+D4L_CPI              		 3
+D4L_CPI_CORE         		 3
+D4L_CPI_LIVRES       		 3
+D4L_CPI_A            		 3
+D4L_CPI_S            		 3
+D4L_CPI_I            		 3
+D4L_CPI_C            		 3
+D_E_D4L_CPI          		 0
+E_D4L_CPI            		 3
+META                 		 3
+DLA_CAMBIO           		 1
+D4L_CAMBIO           		 1
+CAMBIO_PPC           		 1
+DIFF_JURO            		 -1
+CDS                  		 200
+Z                    		 0
+FEDFUNDS             		 2
+STANCE               		 0
+JURO_NOMINAL         		 3
+JURO_NEUTRO          		 0
+E_JURO_NOMINAL       		 3
+E1_JURO_NOMINAL      		 3
+E2_JURO_NOMINAL      		 3
+E3_JURO_NOMINAL      		 3
+E4_JURO_NOMINAL      		 3
+INCERTEZA            		 0
+D4L_GDP_BAR          		 2
+G                    		 2
+HIATO                		 0
+DLA_GDP              		 2
+D4L_GDP              		 2
+UNR                  		 10.17
+UNR_BAR              		 10.17
+UNR_GAP              		 0
+CAPU                 		 80.82
+CAPU_BAR             		 80.82
+CAPU_GAP             		 0
+DUM_LANINA           		 0
+DUM_ELNINO           		 0
+DLA_COMM_METAL       		 0
+DLA_COMM_AGRO        		 0
+DLA_COMM_ENERGY      		 0
+DLA_COMM_BRENT       		 0
+DLA_COMM_USD         		 0
+DLA_COMM_BRL         		 1
+DUM_ENERGIA          		 0
+D_DLA_COMM_BRENT_BRL 		 0
+D_DLA_COMM_BRL       		 0
+D_DLA_COMM_METAL_BRL 		 0
+D_DLA_COMM_AGRO_BRL  		 0
+JURO_REAL            		 0
+CAGED_GAP            		 0
+PIB_GAP              		 0
+D4L_COMM_ENERGIA     		 0
+D4L_COMM_BRENT       		 0
+A                    		 0
+B                    		 0
+
+Initial value of the log posterior (or likelihood): -3721.3472
+
+RESULTS FROM POSTERIOR ESTIMATION
+parameters
+                    prior mean     mode    s.d.  prior pstdev
+
+phi1                    0.4800   0.7627  0.0465   unif 0.2714 
+phi2                    0.5000   0.0670  0.0292   unif 0.2887 
+phi3                    0.0000   0.0415  0.0178   unif 0.5774 
+phi4                    0.0000   0.0018  0.0009   unif 0.0577 
+phi5                    0.0000   0.0544  0.0203   unif 0.5774 
+alphaa2                -0.0250   0.2020  0.1163   unif 0.5629 
+alphaa3                -0.0250   0.0730  0.0348   unif 0.5629 
+alphaa5                -0.0250   0.0412  0.0299   unif 0.5629 
+alphaa6                 0.4800   0.5210  0.4452   unif 0.2714 
+alphaa7                 0.0000   1.3350  5.7057   unif 5.7735 
+alphaa8                 0.0000  -1.3255  5.7057   unif 5.7735 
+alphas2                 0.4800   0.3109  0.1099   unif 0.2714 
+alphas3                 0.4800   0.2372  0.1867   unif 0.2714 
+alphas6                 0.4800   0.2611  0.1059   unif 0.2714 
+alphas7                 0.4750   0.0141  0.0065   unif 0.2742 
+alphai2                 0.4800   0.6447  0.0916   unif 0.2714 
+alphai30                0.4750   0.0098  0.0092   unif 0.2742 
+alphai31                0.4750   0.0179  0.0088   unif 0.2742 
+alphai4                -0.0250   0.0140  0.0052   unif 0.5629 
+alphai5                 0.4750   0.0166  0.0085   unif 0.2742 
+alphai6                 0.4800   0.1185  0.1123   unif 0.2714 
+alphac1                 0.5050   0.6406  0.1951   unif 0.2858 
+alphac2                 0.0000   0.0283  0.0218   unif 0.0577 
+alphac3                 0.0000   0.0013  0.0229   unif 0.0577 
+alphac4                12.5000  19.9797  2.1673   unif 7.2169 
+beta1                   0.4800   0.7824  0.0299   unif 0.2714 
+beta2                   0.4800   0.1510  0.0294   unif 0.2714 
+beta4                   0.0500   0.0506  0.0041   beta 0.0050 
+tau                     0.1000   0.7851  0.1354   norm 0.5000 
+teta1                   1.0000   1.5448  0.0393   unif 0.5774 
+teta2                   0.0000  -0.6446  0.0366   unif 0.5774 
+teta3                   4.0000   1.1077  0.3486   unif 2.3094 
+sigma1                  0.5000   0.4124  0.1152   unif 0.2887 
+sigma2                  0.5000   0.2498  0.1219   unif 0.2887 
+sigma3                  0.5000   0.3690  0.0886   unif 0.2887 
+sigma4                  0.5000   0.0719  0.0983   unif 0.2887 
+deltadiff               5.0000   7.9068  3.6980   unif 2.8868 
+gaps_devpad             1.0000   1.0793  0.0716   unif 0.5774 
+kappa1                  1.5000   0.9327  0.0744   unif 0.8660 
+kappa2                  1.5000   1.0931  0.0869   unif 0.8660 
+kappa3                  1.5000   0.7915  0.0589   unif 0.8660 
+
+standard deviation of shocks
+                    prior mean     mode    s.d.  prior pstdev
+
+RES_META                0.5000   0.1235  0.0110   unif 0.2887 
+RES_W_CPI_S             0.5000   0.0020  0.0002   unif 0.2887 
+RES_W_CPI_I             0.5000   0.0016  0.0001   unif 0.2887 
+RES_W_CPI_C             0.5000   0.0027  0.0002   unif 0.2887 
+RES_E_D4L_CPI           1.5000   0.1858  0.0171   unif 0.8660 
+RES_DLA_CPI_A           5.0000   6.6607  0.5973   unif 2.8868 
+RES_DUM_LANINA          0.5000   0.4363  0.0389   unif 0.2887 
+RES_DUM_ELNINO          0.5000   0.4363  0.0389   unif 0.2887 
+RES_DLA_CPI_S           2.5000   1.0615  0.1114   unif 1.4434 
+RES_A                   0.5000   0.0032  0.2246   unif 0.2887 
+RES_DLA_CPI_I           2.5000   1.6626  0.1510   unif 1.4434 
+RES_B                   0.5000   0.1893  0.1277   unif 0.2887 
+RES_DLA_CPI_C           2.5000   3.5884  0.3171   unif 1.4434 
+RES_DUM_ENERGIA         0.5000   0.2164  0.0191   unif 0.2887 
+RES_HIATO               0.5050   0.3356  0.0734   unif 0.2858 
+RES_G                   5.0000   3.2301  0.3712   unif 2.8868 
+RES_INCERTEZA          10.0050   6.5606  0.5784   unif 5.7706 
+RES_JURO_NOMINAL        1.5050   0.4720  0.0430   unif 0.8631 
+RES_E_JURO_NOMINAL      1.5050   0.4343  0.0427   unif 0.8631 
+RES_Z                   0.1000   0.1181  0.0132   invg 0.0100 
+RES_DLA_COMM_AGRO      50.0000  25.3294  2.2379   unif 28.8675 
+RES_DLA_COMM_ENERGY    50.0000  40.1455  3.0260   unif 28.8675 
+RES_DLA_COMM_METAL     50.0000  35.0541  3.0888   unif 28.8675 
+RES_DLA_COMM_BRENT     50.0000  59.9205  4.5203   unif 28.8675 
+RES_DLA_CAMBIO         17.5000  26.7408  2.3559   unif 10.1036 
+RES_CDS                50.0000  66.0226  5.8768   unif 28.8675 
+RES_FEDFUNDS           20.0000   0.3418  0.0304   unif 11.5470 
+
+
+Log data density [Laplace approximation] is -3842.533125.
+
+
+DsgeSmoother: Switching to univariate filter. This is usually due to co-integration in diffuse filter,
+ otherwise it may be a sign of stochastic singularity.
+Reporting dynamic forecasts 1 period ahead
+Total computing time : 0h00m13s
